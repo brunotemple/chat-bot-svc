@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-  return "test"
+  return "Test 123"
 
 
 @app.route('/chatbot', methods=['GET'])
